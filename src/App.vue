@@ -18,6 +18,7 @@
               <textarea type="text" 
                 placeholder="Description" 
                 class="control" rows="2" 
+                maxlength="100"
                 style="resize: none;" 
                 v-model="register.description"
               ></textarea>
@@ -31,6 +32,7 @@
               <input type="text" 
                 placeholder="Authentication" 
                 class="control"
+                maxlength="3"
                 v-model="register.authentication"
               >
             </div>

@@ -118,13 +118,20 @@ export default {
 }
 
 .card-table > table > tbody > tr > td {
+  height: 50px;
   font-size: 15px;
   font-weight: 300;
   line-height: 20px;
   color: var(--color-12);
   text-align: center;
   margin: auto;
+  padding-top: 5px;
   border-right: 1px solid var(--color-14);
+  border-bottom: 1px solid var(--color-14);
+}
+
+#url {
+  min-width: 300px;
 }
 
 .card-table > table > thead > tr > #name,
@@ -133,7 +140,7 @@ export default {
 }
 .card-table > table > thead > tr > #description,
 .card-table > table > tbody > tr > #description {
-  width: 30%;
+  width: 33%;
 }
 .card-table > table > thead > tr > #category,
 .card-table > table > tbody > tr > #category {
@@ -141,7 +148,7 @@ export default {
 }
 .card-table > table > thead > tr > #authentication,
 .card-table > table > tbody > tr > #authentication {
-  width: 7%;
+  width: 4%;
 }
 .card-table > table > thead > tr > #url,
 .card-table > table > tbody > tr > #url {
