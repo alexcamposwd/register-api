@@ -1,0 +1,28 @@
+:root {
+    --color-1: #fff;
+    --color-2: #ededed;
+    --color-3: #e0e0e0;
+
+    --color-11: #000;
+    --color-12: #333;
+    --color-13: #888;
+    --color-14: #a3a3a3;
+    
+    --color-21: #66bb6a;
+    --color-22: #43a047;
+    --color-23: #3FB984;
+    --color-24: #085833;
+    --color-25: #001d0d;
+    
+    --color-31: #2b3d50;
+    --color-32: #344960;
+    --color-33: #234;
+    --color-34: #4772a0;
+    --color-35: #0d6efd;
+    
+    --color-41: #ff5555;
+    --color-42: #dc3545;
+
+    --font-sans-serif: "Segoe UI","Helvetica Neue","Arial","Noto Sans","Liberation Sans", "sans-serif","Segoe UI Emoji","Segoe UI Symbol";
+    --font-family: var(--bs-font-sans-serif);
+}
